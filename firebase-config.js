@@ -1,19 +1,16 @@
 // firebase-config.js
-// ⚠️  ЭНД ЧИНИЙ FIREBASE ТОХИРГООГ ОРУУЛ
-// Firebase Console → Project Settings → Your apps → Config
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
-// TODO: Replace with YOUR Firebase project config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAnbwyRyyI3m1Znbb81pLVc5YTNpYNtH94",
+  authDomain: "realtime-database-c180b.firebaseapp.com",
+  databaseURL: "https://realtime-database-c180b-default-rtdb.firebaseio.com",
+  projectId: "realtime-database-c180b",
+  storageBucket: "realtime-database-c180b.firebasestorage.app",
+  messagingSenderId: "195993641461",
+  appId: "1:195993641461:web:682ee566e8a2ac27e240bc",
+  measurementId: "G-K41R1D25HD"
 };
 
 const app = initializeApp(firebaseConfig);
