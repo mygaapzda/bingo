@@ -1,0 +1,5 @@
+{
+  "name": "cs2-bingo",
+  "version": "1.0.0",
+  "description": "CS2 Bingo game for 2 players with Firebase realtime sync"
+}
